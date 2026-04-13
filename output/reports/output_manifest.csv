@@ -1,0 +1,97 @@
+Category,File
+Cleaned Data,cleaned/clustered_data.csv
+Cleaned Data,cleaned/df_with_clusters.rds
+Cleaned Data,cleaned/hourly_delay_timeseries.csv
+Cleaned Data,cleaned/pca_transformed_data.csv
+Cleaned Data,cleaned/raw_loaded.rds
+Cleaned Data,cleaned/transport_delays_cleaned.csv
+Cleaned Data,cleaned/transport_delays_cleaned.rds
+Cleaned Data,cleaned/transport_delays_transformed.csv
+Cleaned Data,cleaned/transport_delays_transformed.rds
+Models,models/best_classification_model.rds
+Models,models/dbscan_model.rds
+Models,models/delay_network_graph.rds
+Models,models/kmeans_model.rds
+Models,models/lstm_model_fallback.rds
+Models,models/lstm_normalization_params.rds
+Models,models/model_logistic_regression.rds
+Models,models/model_random_forest.rds
+Models,models/model_svm_radial.rds
+Models,models/pca_config.rds
+Models,models/pca_model.rds
+Models,models/scaling_params.rds
+Plots,plots/cluster_pc1_pc2.png
+Plots,plots/cluster_profile_comparison.png
+Plots,plots/cluster_sizes.png
+Plots,plots/cm_logistic_regression.png
+Plots,plots/cm_random_forest.png
+Plots,plots/cm_svm_radial.png
+Plots,plots/comprehensive_delay_dashboard.png
+Plots,plots/congestion_vs_delay.png
+Plots,plots/correlation_matrix.png
+Plots,plots/daily_delay_trend.png
+Plots,plots/dbscan_cluster_plot.png
+Plots,plots/dbscan_knn_distance.png
+Plots,plots/delay_by_transport_type.png
+Plots,plots/delay_distribution_histogram.png
+Plots,plots/delay_propagation_network.png
+Plots,plots/delay_rate_by_day.png
+Plots,plots/delay_weekday_vs_weekend.png
+Plots,plots/departure_delay_distribution.png
+Plots,plots/error_analysis_scatter.png
+Plots,plots/event_impact_bar.png
+Plots,plots/holiday_effect.png
+Plots,plots/hour_weekday_heatmap.png
+Plots,plots/hourly_delay_pattern.png
+Plots,plots/interactive_delay_network.html
+Plots,plots/interactive_delay_network_files/d3-4.9.1/d3.min.js
+Plots,plots/interactive_delay_network_files/d3-4.9.1/LICENSE
+Plots,plots/interactive_delay_network_files/forceNetwork-binding-0.4.1/forceNetwork.js
+Plots,plots/interactive_delay_network_files/htmltools-fill-0.5.9/fill.css
+Plots,plots/interactive_delay_network_files/htmlwidgets-1.6.4/htmlwidgets.js
+Plots,plots/kmeans_elbow_plot.png
+Plots,plots/kmeans_silhouette_analysis.png
+Plots,plots/lstm_actual_vs_predicted.png
+Plots,plots/lstm_residual_distribution.png
+Plots,plots/lstm_residuals_over_time.png
+Plots,plots/lstm_scatter_actual_vs_predicted.png
+Plots,plots/model_comparison_bar.png
+Plots,plots/pca_biplot.png
+Plots,plots/pca_scree_plot.png
+Plots,plots/pca_variable_contributions.png
+Plots,plots/peak_hour_effect.png
+Plots,plots/precipitation_vs_delay.png
+Plots,plots/rf_variable_importance.png
+Plots,plots/roc_curves_comparison.png
+Plots,plots/station_hour_heatmap.png
+Plots,plots/target_class_distribution.png
+Plots,plots/temperature_vs_delay.png
+Plots,plots/top_propagators_pagerank.png
+Plots,plots/top10_routes_delay.png
+Plots,plots/top15_destination_stations.png
+Plots,plots/top15_origin_stations.png
+Plots,plots/weather_impact_bar.png
+Plots,plots/wind_speed_vs_delay.png
+Reports,reports/cleaning_log.csv
+Reports,reports/cluster_profiles.csv
+Reports,reports/data_profile.csv
+Reports,reports/delay_propagation_edges.csv
+Reports,reports/feature_dictionary.csv
+Reports,reports/hourly_day_statistics.csv
+Reports,reports/lstm_performance_metrics.csv
+Reports,reports/missing_value_summary.csv
+Reports,reports/model_comparison.csv
+Reports,reports/outlier_detection_log.csv
+Reports,reports/pca_loadings.csv
+Reports,reports/pca_variance_explained.csv
+Reports,reports/powerbi_cluster_summary.csv
+Reports,reports/powerbi_hourly_patterns.csv
+Reports,reports/powerbi_model_comparison.csv
+Reports,reports/powerbi_overall_summary.csv
+Reports,reports/powerbi_station_rankings.csv
+Reports,reports/powerbi_transformed_full.csv
+Reports,reports/powerbi_weather_impact.csv
+Reports,reports/route_statistics.csv
+Reports,reports/scaling_parameters.csv
+Reports,reports/station_network_metrics.csv
+Reports,reports/station_origin_statistics.csv

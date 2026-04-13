@@ -1,0 +1,7 @@
+weather_condition,avg_delay,delay_rate,total_trips
+Rain,13.62,75.7,321
+Snow,13.53,75.22,343
+Clear,13.5,75.51,343
+Storm,13.29,76.56,337
+Cloudy,13.07,73.54,325
+Fog,12.88,73.11,331

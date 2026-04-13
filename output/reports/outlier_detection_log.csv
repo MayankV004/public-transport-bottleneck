@@ -1,0 +1,9 @@
+Column,Outliers_Detected,Lower_Bound,Upper_Bound
+actual_departure_delay_min,0,-13.5,30.5
+actual_arrival_delay_min,0,-19,45
+temperature_C,0,-24.45,54.35
+humidity_percent,0,-9.5,138.5
+wind_speed_kmh,0,-30,90
+precipitation_mm,0,-9.95,29.65
+traffic_congestion_index,0,-51.5,152.5
+event_attendance_est,393,-3000,5000

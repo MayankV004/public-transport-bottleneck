@@ -1,0 +1,7 @@
+Step,Records_Before,Records_After,Records_Changed,Method
+Raw data loaded,2000,2000,0,—
+Missing values handled,2000,2000,0,Median/Mode imputation + Drop
+Duplicates removed,2000,2000,0,distinct() + first occurrence
+Outliers capped,2000,2000,0,IQR winsorization
+Logical consistency validated,2000,2000,0,Flag circular trips
+Final clean dataset,2000,2000,0,All above steps combined

@@ -1,0 +1,4 @@
+cluster,n_observations,avg_arrival_delay,avg_departure_delay,delay_rate,avg_congestion,avg_temperature,avg_precipitation,dominant_transport,dominant_weather,label
+2,834,5.16,8.68,48.68,48.86,15.96,10.02,Metro,Clear,On-Time / Stable
+1,343,14.33,8.74,78.72,60.81,14.14,9.99,Bus,Cloudy,Moderate / Delay-Sensitive
+3,823,21.17,8.67,100,47.24,14.68,9.65,Bus,Clear,Bottleneck-Prone / High-Delay

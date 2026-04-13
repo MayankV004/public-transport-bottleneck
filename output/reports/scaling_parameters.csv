@@ -1,0 +1,16 @@
+Column,Mean,SD,Min,Max
+actual_departure_delay_min,8.688,6.2681,-2,19
+actual_arrival_delay_min,13.318,9.2897,-3,29
+temperature_C,15.1214,11.4794,-5,35
+humidity_percent,64.714,20.3347,30,99
+wind_speed_kmh,29.3005,17.264,0,59
+precipitation_mm,9.8607,5.7814,0,20
+event_attendance_est,1237.75,1955.7639,0,5000
+traffic_congestion_index,50.244,29.2258,0,99
+total_delay,22.006,11.1693,-4,48
+delay_change,4.63,11.2438,-22,31
+trip_duration_scheduled,37.0035,11.3412,16,59
+weather_severity_index,0.4481,0.2055,0.0071,0.9938
+feels_like_impact,4.3702,4.6299,-2.85,20.414
+event_impact_score,62.7082,119.4924,0,495
+congestion_weather_combo,22.5056,17.5888,0,93.6684

@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1_Score,Specificity,AUC
+Logistic Regression,0.4787,0.7177,0.5017,0.5906,0.41,0.5633
+Random Forest,0.7318,0.754,0.9532,0.8419,0.07,0.5178
+SVM (Radial),0.5188,0.7688,0.5117,0.6145,0.54,0.5251

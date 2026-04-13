@@ -1,0 +1,12 @@
+Metric,Value
+Total Trips,2000
+Delayed Trips,1499
+On-Time Trips,501
+Delay Rate (%),74.95
+Avg Arrival Delay (min),13.32
+Avg Departure Delay (min),8.69
+Max Arrival Delay (min),29
+Unique Stations,50
+Unique Routes,20
+Date Range Start,2023-01-01
+Date Range End,2023-01-22

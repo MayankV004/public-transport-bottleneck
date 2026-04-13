@@ -1,0 +1,83 @@
+Column,Type,Source
+trip_id,character,Original
+date,Date,Original
+time,character,Original
+transport_type,factor,Original
+route_id,factor,Original
+origin_station,factor,Original
+destination_station,factor,Original
+scheduled_departure,character,Original
+scheduled_arrival,character,Original
+actual_departure_delay_min,numeric,Original
+actual_arrival_delay_min,numeric,Original
+weather_condition,factor,Original
+temperature_C,numeric,Original
+humidity_percent,numeric,Original
+wind_speed_kmh,numeric,Original
+precipitation_mm,numeric,Original
+event_type,factor,Original
+event_attendance_est,numeric,Original
+traffic_congestion_index,numeric,Original
+holiday,factor,Original
+peak_hour,factor,Original
+weekday,numeric,Original
+season,factor,Original
+delayed,factor,Original
+is_circular_trip,numeric,Feature engineering
+datetime,POSIXct/POSIXt,Feature engineering
+sched_dep_datetime,POSIXct/POSIXt,Feature engineering
+sched_arr_datetime,POSIXct/POSIXt,Feature engineering
+hour,integer,Feature engineering
+day_name,character,Feature engineering
+is_weekend,numeric,Feature engineering
+month,numeric,Feature engineering
+week_of_year,numeric,Feature engineering
+time_of_day_bucket,character,Feature engineering
+total_delay,numeric,Feature engineering
+delay_change,numeric,Feature engineering
+is_early_departure,numeric,Feature engineering
+is_early_arrival,numeric,Feature engineering
+trip_duration_scheduled,numeric,Feature engineering
+severe_delay,numeric,Feature engineering
+transport_type_enc,numeric,Label encoding
+weather_condition_enc,numeric,Label encoding
+event_type_enc,numeric,Label encoding
+season_enc,numeric,Label encoding
+weather_severity_index,numeric,Feature engineering
+feels_like_impact,numeric,Feature engineering
+event_impact_score,numeric,Feature engineering
+congestion_weather_combo,numeric,Feature engineering
+station_avg_dep_delay,numeric,Station aggregation
+station_delay_rate,numeric,Station aggregation
+route_avg_delay,numeric,Route aggregation
+route_delay_rate,numeric,Feature engineering
+actual_departure_delay_min_z,numeric,Z-score normalization
+actual_arrival_delay_min_z,numeric,Z-score normalization
+temperature_C_z,numeric,Z-score normalization
+humidity_percent_z,numeric,Z-score normalization
+wind_speed_kmh_z,numeric,Z-score normalization
+precipitation_mm_z,numeric,Z-score normalization
+event_attendance_est_z,numeric,Z-score normalization
+traffic_congestion_index_z,numeric,Z-score normalization
+total_delay_z,numeric,Z-score normalization
+delay_change_z,numeric,Z-score normalization
+trip_duration_scheduled_z,numeric,Z-score normalization
+weather_severity_index_z,numeric,Z-score normalization
+feels_like_impact_z,numeric,Z-score normalization
+event_impact_score_z,numeric,Z-score normalization
+congestion_weather_combo_z,numeric,Z-score normalization
+actual_departure_delay_min_mm,numeric,Min-Max normalization
+actual_arrival_delay_min_mm,numeric,Min-Max normalization
+temperature_C_mm,numeric,Min-Max normalization
+humidity_percent_mm,numeric,Min-Max normalization
+wind_speed_kmh_mm,numeric,Min-Max normalization
+precipitation_mm_mm,numeric,Min-Max normalization
+event_attendance_est_mm,numeric,Min-Max normalization
+traffic_congestion_index_mm,numeric,Min-Max normalization
+total_delay_mm,numeric,Min-Max normalization
+delay_change_mm,numeric,Min-Max normalization
+trip_duration_scheduled_mm,numeric,Min-Max normalization
+weather_severity_index_mm,numeric,Min-Max normalization
+feels_like_impact_mm,numeric,Min-Max normalization
+event_impact_score_mm,numeric,Min-Max normalization
+congestion_weather_combo_mm,numeric,Min-Max normalization
