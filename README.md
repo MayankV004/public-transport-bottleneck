@@ -334,12 +334,6 @@ All outputs are saved under `output/` and auto-created by the pipeline:
 | `igraph` | Network graph construction |
 | **Power BI** | Dashboard creation |
 
----
 
-## 📄 License
 
-This project was developed as a Semester 6 academic project for the **Data Warehousing & Data Mining** course.
 
----
-
-<p align="center">Made with ❤️ and R</p>
